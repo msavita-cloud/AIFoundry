@@ -50,6 +50,15 @@ Imagine a company that wants to build an AI-driven customer support system. Usin
 | **Use Case**   | Writing text, recognizing objects in photos, speech-to-text conversion.            | Enhancing accuracy and responsiveness in human-computer interactions, generating content that includes both text and images. |
 | **Endpoints**   | Typically involve a single AI model endpoint that handles one type of data.        | May involve multiple AI model endpoints or a single endpoint that can handle multiple types of data. |
 
+# Understanding AI Agents: Single-Agent vs. Multi-Agent
+
+| Feature        | Single-Agent AI Models                                                                 | Multi-Agent AI Models                                                                 |
+|----------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| **Definition** | Designed to perform tasks independently without the need for interaction with other agents. | Involve multiple agents working together to perform tasks, interacting and collaborating to achieve complex goals. |
+| **Example**    | A text analytics model that performs sentiment analysis on text data.                  | A system where one agent processes data, another generates reports, and a third sends emails. |
+| **Use Case**   | Writing text, recognizing objects in photos, speech-to-text conversion.                | Coordinating tasks in smart grids, managing energy distribution, automating workflows. |
+| **Endpoints**  | Typically involve a single AI model endpoint that handles one type of data.            | May involve multiple AI model endpoints, each handling different tasks or data types. |
+
 
 
 

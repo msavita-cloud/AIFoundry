@@ -1,5 +1,29 @@
 # This code demonstrates how to use multiple agents to process data,
 #  generate reports, and send emails using Azure AI services.
+# Explanation of the Code
+# Configuration:
+# Sets up the Azure AI client using a connection string and credentials.
+# Initializes the Bing connection (if needed).
+
+# EmailSender Class:
+# Defines a class to handle sending emails using Gmail's SMTP server.
+
+# Creating Agents:
+# Creates three agents: one for data processing, one for report generation, and one for sending emails.
+
+# Processing Data:
+# Creates a thread and message for the data processing agent to process the provided data.
+# Runs the agent and retrieves the processed data.
+
+# Generating Report:
+# Creates a thread and message for the report generation agent to generate a report based on the processed data.
+# Runs the agent and retrieves the generated report.
+
+# Sending Email:
+# Uses the EmailSender class to send the generated report via email.
+
+# Cleanup:
+# Deletes the agents once their tasks are completed.
 
 import os
 import smtplib

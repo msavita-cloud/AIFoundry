@@ -6,6 +6,7 @@ from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
 # Set your Azure credentials
+# Open AI endpoint and key from Azure foundry Project endpoints section
 endpoint = "https://xx-ai-xx.cognitiveservices.azure.com//"
 api_key = "xxxxx"
 

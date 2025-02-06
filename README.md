@@ -3,7 +3,7 @@ AI Workshop
 
 Azure AI Foundry is a comprehensive platform provided by Microsoft Azure for building, deploying, and managing AI-driven applications. It combines various AI tools and services, enabling seamless integration and project management.
 
-## How Azure AI Foundry is Useful for AI Projects and code to get started with foundry project
+## How Azure AI Foundry is Useful for AI Projects and how to get started with foundry project
 ### Azure AI Project SDK and Azure Identity
 
 ### azure-ai-projects

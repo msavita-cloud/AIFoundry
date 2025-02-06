@@ -42,7 +42,8 @@ Imagine a company that wants to build an AI-driven customer support system. Usin
 **Azure AI Foundry deployed and ready with a model..<br>
 **Azure Identity Library and Azure AI Project SDK installed:.<br>
 **In vs code: pip install azure-ai-projects azure-identity
-## Difference Between Multimodal and Unimodal AI Models
+## Difference Between Multimodal and Unimodal AI Models 
+# See multimodal and unimodel py files
 | Feature        | Unimodal AI Models                                                                 | Multimodal AI Models                                                                |
 |----------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | **Definition** | Designed to analyze and process a single type of data, such as text, images, or audio. | Combine multiple data sources and integrate them into a common system capable of handling text, images, video, and audio simultaneously. |

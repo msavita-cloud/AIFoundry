@@ -11,7 +11,7 @@
 # Creating Agents:
 # Creates three agents: one for data processing, one for report generation, and one for sending emails.
 
-# Processing Data:
+# Pprocessing Data:
 # Creates a thread and message for the data processing agent to process the provided data.
 # Runs the agent and retrieves the processed data.
 
@@ -93,7 +93,7 @@ with project_client:
     message1 = project_client.agents.create_message(
         thread_id=thread1.id,
         role="user",
-        content="Process the following data: Company A: $1.2 million, Company B: $2.5 million, Company C: $3.0 million, Company D: $1.8 million",
+      content="Analyze the following customer feedback: 'The product quality is excellent, but the delivery was delayed. Customer service was helpful, but the website is difficult to navigate.'",
     )
     print(f"Created message1, message ID: {message1.id}")
 
@@ -135,7 +135,7 @@ with project_client:
 
     # Send the report via email using Agent 3
     email_subject = "Generated Report"
-    email_body = f"Here is the generated report:\n\n{report}\n\nContinuous monitoring of revenue trends is advised for making informed decisions and adjusting business strategies accordingly.\n\nFor any further analysis or additional metrics, please feel free to reach out."
+    email_body = f"Here is the generated report:\n\n{report}\n\nContinuous monitoring of customer feedback is advised for making informed decisions and improving business strategies accordingly.\n\nFor any further analysis or additional metrics, please feel free to reach out."
     recipient_email = "xxx@microsoft.com"
     email_sender.send_email(email_subject, email_body, recipient_email)
 

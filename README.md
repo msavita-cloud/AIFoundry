@@ -8,7 +8,10 @@ AI Workshop
 | **Use Case**   | Writing text, recognizing objects in photos, speech-to-text conversion.            | Enhancing accuracy and responsiveness in human-computer interactions, generating content that includes both text and images. |
 
 **Prerequisites**
-Azure Subscription with access to Azure AI Foundry.
-Azure AI Foundry deployed and ready with a model.
-Azure Identity Library and Azure AI Project SDK installed:
+Azure Subscription with access to Azure AI Foundry.<br>
+Azure AI Foundry deployed and ready with a model..<br>
+Azure Identity Library and Azure AI Project SDK installed:.<br>
+
+pip install azure-ai-projects azure-identity
+
 

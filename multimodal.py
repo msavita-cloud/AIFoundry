@@ -10,7 +10,7 @@ from openai import AzureOpenAI
 
 # Open AI endpoint and key from Azure foundry Project endpoints section
 client = AzureOpenAI(  
-    azure_endpoint="https://agent-ai-servicesisz5.openai.azure.com/",  /
+    azure_endpoint="https://xxx-ai-xxx.openai.azure.com/",  /
     api_key="xxxxxxx",  
     api_version="2024-05-01-preview",
 )

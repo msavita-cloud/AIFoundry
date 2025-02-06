@@ -3,7 +3,20 @@ AI Workshop
 
 Azure AI Foundry is a comprehensive platform provided by Microsoft Azure for building, deploying, and managing AI-driven applications. It combines various AI tools and services, enabling seamless integration and project management.
 
-## How Azure AI Foundry is Useful for AI Projects
+## How Azure AI Foundry is Useful for AI Projects and code to get started with foundry project
+# Azure AI Project SDK and Azure Identity
+
+### azure-ai-projects
+
+**Description**: This package provides the Azure AI Project SDK, which is a comprehensive toolchain designed to simplify the development of AI applications on Azure. It enables developers to access various AI models and services through a single interface.
+
+**Functionality**: Allows you to create, manage, and deploy AI projects using Azure AI Foundry. It provides programmatic access to Azure AI capabilities, making it easier to integrate different AI services into your applications.
+
+### azure-identity
+
+**Description**: This package provides Azure Active Directory (Azure AD) token authentication support across the Azure SDK. It includes various credential classes for authenticating with Azure services.
+
+**Functionality**: Enables secure authentication to Azure services using Azure AD credentials. It supports different authentication methods, such as managed identities, environment variables, and interactive browser authentication.
 
 ### Streamlined Development
 - Simplifies the development process by providing a robust toolkit for seamless integration of Azure AI services.

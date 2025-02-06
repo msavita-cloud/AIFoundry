@@ -6,8 +6,8 @@ from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
 
 # Set your Azure credentials
-endpoint = "https://agent-ai-servicesisz5.cognitiveservices.azure.com//"
-api_key = "1KgkFVogcQ5MSlTsxyajFx77iUBvDI7nICse0ZhnhuGE8CISCMqfJQQJ99BAACYeBjFXJ3w3AAAAACOGg8ZR"
+endpoint = "https://xx-ai-xx.cognitiveservices.azure.com//"
+api_key = "xxxxx"
 
 # Authenticate to the service
 client = TextAnalyticsClient(endpoint=endpoint, credential=AzureKeyCredential(api_key))

@@ -36,11 +36,12 @@ Imagine a company that wants to build an AI-driven customer support system. Usin
 3. **Leverage Cognitive Services**: Utilize Azure Cognitive Services for speech-to-text conversion, language understanding, and sentiment analysis.
 4. **Collaborate Across Teams**: Enable data scientists, engineers, and business professionals to collaborate on the project, ensuring that the AI system meets business goals.
 5. **Deploy and Manage**: Deploy the AI system on Azure and manage it using the tools provided by Azure AI Foundry.
-   **Prerequisites**
-Azure Subscription with access to Azure AI Foundry.<br>
-Azure AI Foundry deployed and ready with a model..<br>
-Azure Identity Library and Azure AI Project SDK installed:.<br>
-In vs code: pip install azure-ai-projects azure-identity
+   
+**Prerequisites**
+**Azure Subscription with access to Azure AI Foundry.<br>
+**Azure AI Foundry deployed and ready with a model..<br>
+**Azure Identity Library and Azure AI Project SDK installed:.<br>
+**In vs code: pip install azure-ai-projects azure-identity
 ## Difference Between Multimodal and Unimodal AI Models
 | Feature        | Unimodal AI Models                                                                 | Multimodal AI Models                                                                |
 |----------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|

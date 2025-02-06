@@ -1,9 +1,9 @@
 # This code demonstrates how to use multiple agents to process data,
 #  generate reports, and send emails using Azure AI services.
+
 # Explanation of the Code
 # Configuration:
 # Sets up the Azure AI client using a connection string and credentials.
-# Initializes the Bing connection (if needed).
 
 # EmailSender Class:
 # Defines a class to handle sending emails using Gmail's SMTP server.
@@ -38,9 +38,7 @@ project_connection_string="eastus.api.azureml.ms;fxxx1d2-9b1c-49d5-xxxx-xxxx;sav
 project_client = AIProjectClient.from_connection_string(
     credential=DefaultAzureCredential(), conn_str=project_connection_string
 )
-bing_connection = project_client.connections.get(
-    connection_name="bin"
-)
+
 class EmailSender:
     def send_email(self, subject, body, to_email):
         from_email = "smxxxx@xxxx.com"
